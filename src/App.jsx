@@ -5,6 +5,7 @@ import InvestorGate from './pages/InvestorGate'
 import PeaceProtocol from './pages/PeaceProtocol'
 import LiveDemo from './pages/LiveDemo'
 import DealRoom from './pages/DealRoom'
+import NewsBrief from './pages/NewsBrief'
 import { NeuralWidget } from './components/NeuralWidget'
 
 export default function App() {
@@ -16,6 +17,7 @@ export default function App() {
         <Route path="/peace-protocol" element={<PeaceProtocol />} />
         <Route path="/live-demo" element={<LiveDemo />} />
         <Route path="/deal-room" element={<DealRoom />} />
+        <Route path="/news" element={<NewsBrief />} />
         <Route path="*" element={<TruePerspective />} />
       </Routes>
       <NeuralWidget />

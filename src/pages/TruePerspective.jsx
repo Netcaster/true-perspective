@@ -80,6 +80,7 @@ export default function TruePerspective() {
           <a href="#endpoint" className="hover:text-white transition-colors">Endpoint</a>
           <a href="#economics" className="hover:text-white transition-colors">Economics</a>
           <a href="#system" className="hover:text-white transition-colors">System</a>
+          <Link to="/news" className="hover:text-white transition-colors">Intelligence</Link>
         </div>
         <Link
           to="/investor"
